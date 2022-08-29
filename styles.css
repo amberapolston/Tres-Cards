@@ -4,21 +4,21 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  width: 54%;
+  width: 58%;
   height: 10%;
   margin: auto;
   column-gap: 10%;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 14px;
   font-family: 'Oswald', sans-serif;
   margin-bottom: 0px;
 }
 
 p {
   font-family: 'Oswald', sans-serif;
-  font-size: 20px;
+  font-size: 14px;
   color: gray;
   margin: 0;
   padding: 0;
@@ -59,4 +59,8 @@ a {
 }
 .headerone, .headertwo, .headerthree {
   padding-left: 5%;
+}
+
+.boxone, .boxtwo, .boxthree {
+  border: solid 2px silver;
 }
