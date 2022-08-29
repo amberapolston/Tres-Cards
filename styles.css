@@ -8,12 +8,14 @@
   height: 10%;
   margin: auto;
   column-gap: 10%;
+  margin-top: 20%;
 }
 
 h3 {
   font-size: 14px;
   font-family: 'Oswald', sans-serif;
   margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 p {
@@ -63,4 +65,12 @@ a {
 
 .boxone, .boxtwo, .boxthree {
   border: solid 2px silver;
+  border-radius: 4px;
+  padding: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.boxone:hover, .boxtwo:hover, .boxthree:hover {
+  background-color: #F5F5F5;
 }
