@@ -9,10 +9,6 @@
   margin: auto;
 }
 
-.linkone {
-  display: grid;
-}
-
 h3 {
   font-size: 18px;
   font-family: 'Oswald', sans-serif;
@@ -36,7 +32,7 @@ a {
   color: gray;
 }
 
-.flexthree {
+.flexone, .flextwo, .flexthree {
   display: flex;
   flex-direction: row;
 }
@@ -46,7 +42,7 @@ a {
   font: font-family: 'Oswald', sans-serif;
 }
 
-.footerthree {
+.footerone, .footertwo,.footerthree {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -60,7 +56,6 @@ a {
   margin-top: 11%;
   margin-right: 4%;
 }
-.headerthree {
+.headerone, .headertwo, .headerthree {
   padding-left: 5%;
-
 }
