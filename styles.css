@@ -2,12 +2,11 @@
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  width: 58%;
+  grid-template-columns: repeat(3, 1fr);
+  width: 52%;
   height: 10%;
   margin: auto;
-  column-gap: 10%;
+  column-gap: 3%;
   margin-top: 20%;
 }
 
@@ -56,7 +55,7 @@ a {
 }
 
 .icon { 
-  margin-top: 11%;
+  margin-top: 1%;
   margin-right: 4%;
 }
 .headerone, .headertwo, .headerthree {
@@ -73,4 +72,17 @@ a {
 
 .boxone:hover, .boxtwo:hover, .boxthree:hover {
   background-color: #F5F5F5;
+}
+
+@media (max-width: 767px) {
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .boxone, .boxtwo, .boxthree {
+    margin: 2%;
+  }
+  
 }
